@@ -212,6 +212,7 @@ Makefile: ../Imageport/Imageport.pro E:/install/QT/5.7/mingw53_32/mkspecs/win32-
 		E:/install/QT/5.7/mingw53_32/lib/qtmaind.prl \
 		E:/install/QT/5.7/mingw53_32/lib/Qt5Widgets.prl \
 		E:/install/QT/5.7/mingw53_32/lib/Qt5Gui.prl \
+		E:/install/QT/5.7/mingw53_32/lib/Qt5SerialPort.prl \
 		E:/install/QT/5.7/mingw53_32/lib/Qt5Core.prl
 	$(QMAKE) -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" -o Makefile ..\Imageport\Imageport.pro
 E:/install/QT/5.7/mingw53_32/mkspecs/features/spec_pre.prf:
@@ -367,6 +368,7 @@ E:/install/QT/5.7/mingw53_32/mkspecs/features/lex.prf:
 E:/install/QT/5.7/mingw53_32/lib/qtmaind.prl:
 E:/install/QT/5.7/mingw53_32/lib/Qt5Widgets.prl:
 E:/install/QT/5.7/mingw53_32/lib/Qt5Gui.prl:
+E:/install/QT/5.7/mingw53_32/lib/Qt5SerialPort.prl:
 E:/install/QT/5.7/mingw53_32/lib/Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug" -o Makefile ..\Imageport\Imageport.pro
