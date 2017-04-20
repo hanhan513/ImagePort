@@ -21,3 +21,8 @@ HEADERS  += widget.h \
     rgb2bmp.h
 
 FORMS    += widget.ui
+
+RESOURCES += \
+    ico.qrc
+
+RC_FILE=icon.rc

@@ -5,8 +5,9 @@
 #include <QDebug>
 #include <QtSerialPort/QSerialPort>
 #include <QtSerialPort/QSerialPortInfo>
-//#include <rgb565.h>
 #include <rgb2bmp.h>
+
+
 
 namespace Ui {
 class Widget;

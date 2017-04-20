@@ -11,10 +11,10 @@ int  TransBMP()
     nHeight       :所生成文件的垂直像素
     newFile       :最终生成文件的名称
 ***********************************************/
-    char* filename = "F:/NEW/qt/ImagePort/Imageport/rgb565.bin";
+    char* filename = "./rgb565.bin";
     int nWidth = 240;
     int nHeight = 320;
-    char* newFile = "F:/NEW/qt/ImagePort/Imageport/rgb565_240_320_woman_0x7f.bmp";
+    char* newFile = "./rgb565_240_320_woman_0x7f.bmp";
     p = fopen(filename,"rb");
     if (p == NULL)
     {

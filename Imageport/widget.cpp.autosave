@@ -48,21 +48,6 @@ Widget::Widget(QWidget *parent) :
     qDebug() << tr("界面设定成功！");
     ui->grabButton->setEnabled(false);
     ui->displayButton->setEnabled(false);
-
-
-
-
-    QString a="我是图";
-
-    ui->revTextEdit->append(a);
-
-
-
-
-
-
-
-
 }
 
 Widget::~Widget()
